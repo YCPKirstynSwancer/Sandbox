@@ -107,6 +107,7 @@ body{
   background-image: url('../img/Textured_Background.png');
 
 
+
 }
 
 /*Header*/
@@ -337,9 +338,39 @@ header{
   header{
     height: 100px;
   }
+  .HeroSection{
+    background-image: url('../img/AFI_hero.jpg');
+    width: 100%;
+    height: 432px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+  }
 
   .header_logo{
     width:80px;
+  }
+
+  .ConcertDates{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+  }
+
+  .Dates{
+  width: 100%;
+  margin: 0;
+  }
+
+
+  .Dates ul li{
+    padding: 15px;
   }
 
 
@@ -347,7 +378,46 @@ header{
 
 /*Mobile*/
 @media screen and (max-width: 360px){
+  header{
+    height: 100px;
+  }
+.HeroSection{
+  font-siz: 202px;
+}
 
+.Lineup h1{
+  font-size: 50px;
+}
+
+.Lineup p{
+  font-size: 14px;
+}
+
+.Lineup h2{
+  font-size: 30px;
+}
+
+.ConcertDates{
+flex-direction: column;
+}
+
+.Dates{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.Dates ul{
+  list-style: none;
+  padding: 0;
+}
+
+.Dates ul li{
+  text-align: center;
+}
 
 
 }
