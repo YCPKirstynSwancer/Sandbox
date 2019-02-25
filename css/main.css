@@ -254,17 +254,53 @@ header{
 }
 
 
+/*About Page Styles*/
+.About{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
 
+.About p{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
 
+.About h1{
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 700;
+}
 
+.About h2{
+  font-size: 30px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-top: -5px;
+}
 
+.About ol li{
+  font-size: 14px;
+  line-height: 26px;
+  font-style: italic;
+}
 
+.About blockquote{
+  font-size: 32px;
+  line-height: 40px;
+  font-style: italic;
+  padding-left: 20px;
+}
 
-
-
-
-
-
+.About a{
+  color: #F89500;
+  text-decoration: none;
+}
 
 
 /* ==========================================================================
